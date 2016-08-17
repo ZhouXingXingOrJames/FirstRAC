@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD164AFB1D64631A001049D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164AFA1D64631A001049D7 /* main.m */; };
+		DD164AFE1D64631A001049D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164AFD1D64631A001049D7 /* AppDelegate.m */; };
+		DD164B011D64631A001049D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B001D64631A001049D7 /* ViewController.m */; };
+		DD164B041D64631A001049D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD164B021D64631A001049D7 /* Main.storyboard */; };
+		DD164B061D64631A001049D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD164B051D64631A001049D7 /* Assets.xcassets */; };
+		DD164B091D64631A001049D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD164B071D64631A001049D7 /* LaunchScreen.storyboard */; };
+		DD164B141D64631A001049D7 /* FristRACProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B131D64631A001049D7 /* FristRACProjectTests.m */; };
+		DD164B1F1D64631A001049D7 /* FristRACProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B1E1D64631A001049D7 /* FristRACProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD164B101D64631A001049D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD164AEE1D64631A001049D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD164AF51D64631A001049D7;
+			remoteInfo = FristRACProject;
+		};
+		DD164B1B1D64631A001049D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD164AEE1D64631A001049D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD164AF51D64631A001049D7;
+			remoteInfo = FristRACProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD164AF61D64631A001049D7 /* FristRACProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FristRACProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD164AFA1D64631A001049D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD164AFC1D64631A001049D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD164AFD1D64631A001049D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD164AFF1D64631A001049D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD164B001D64631A001049D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD164B031D64631A001049D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD164B051D64631A001049D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD164B081D64631A001049D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD164B0A1D64631A001049D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD164B0F1D64631A001049D7 /* FristRACProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FristRACProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD164B131D64631A001049D7 /* FristRACProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristRACProjectTests.m; sourceTree = "<group>"; };
+		DD164B151D64631A001049D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD164B1A1D64631A001049D7 /* FristRACProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FristRACProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD164B1E1D64631A001049D7 /* FristRACProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristRACProjectUITests.m; sourceTree = "<group>"; };
+		DD164B201D64631A001049D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD164AF31D64631A001049D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B0C1D64631A001049D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B171D64631A001049D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD164AED1D64631A001049D7 = {
+			isa = PBXGroup;
+			children = (
+				DD164AF81D64631A001049D7 /* FristRACProject */,
+				DD164B121D64631A001049D7 /* FristRACProjectTests */,
+				DD164B1D1D64631A001049D7 /* FristRACProjectUITests */,
+				DD164AF71D64631A001049D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD164AF71D64631A001049D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD164AF61D64631A001049D7 /* FristRACProject.app */,
+				DD164B0F1D64631A001049D7 /* FristRACProjectTests.xctest */,
+				DD164B1A1D64631A001049D7 /* FristRACProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD164AF81D64631A001049D7 /* FristRACProject */ = {
+			isa = PBXGroup;
+			children = (
+				DD164AFC1D64631A001049D7 /* AppDelegate.h */,
+				DD164AFD1D64631A001049D7 /* AppDelegate.m */,
+				DD164AFF1D64631A001049D7 /* ViewController.h */,
+				DD164B001D64631A001049D7 /* ViewController.m */,
+				DD164B021D64631A001049D7 /* Main.storyboard */,
+				DD164B051D64631A001049D7 /* Assets.xcassets */,
+				DD164B071D64631A001049D7 /* LaunchScreen.storyboard */,
+				DD164B0A1D64631A001049D7 /* Info.plist */,
+				DD164AF91D64631A001049D7 /* Supporting Files */,
+			);
+			path = FristRACProject;
+			sourceTree = "<group>";
+		};
+		DD164AF91D64631A001049D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD164AFA1D64631A001049D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD164B121D64631A001049D7 /* FristRACProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD164B131D64631A001049D7 /* FristRACProjectTests.m */,
+				DD164B151D64631A001049D7 /* Info.plist */,
+			);
+			path = FristRACProjectTests;
+			sourceTree = "<group>";
+		};
+		DD164B1D1D64631A001049D7 /* FristRACProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD164B1E1D64631A001049D7 /* FristRACProjectUITests.m */,
+				DD164B201D64631A001049D7 /* Info.plist */,
+			);
+			path = FristRACProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD164AF51D64631A001049D7 /* FristRACProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD164B231D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProject" */;
+			buildPhases = (
+				DD164AF21D64631A001049D7 /* Sources */,
+				DD164AF31D64631A001049D7 /* Frameworks */,
+				DD164AF41D64631A001049D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FristRACProject;
+			productName = FristRACProject;
+			productReference = DD164AF61D64631A001049D7 /* FristRACProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD164B0E1D64631A001049D7 /* FristRACProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD164B261D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProjectTests" */;
+			buildPhases = (
+				DD164B0B1D64631A001049D7 /* Sources */,
+				DD164B0C1D64631A001049D7 /* Frameworks */,
+				DD164B0D1D64631A001049D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD164B111D64631A001049D7 /* PBXTargetDependency */,
+			);
+			name = FristRACProjectTests;
+			productName = FristRACProjectTests;
+			productReference = DD164B0F1D64631A001049D7 /* FristRACProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD164B191D64631A001049D7 /* FristRACProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD164B291D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProjectUITests" */;
+			buildPhases = (
+				DD164B161D64631A001049D7 /* Sources */,
+				DD164B171D64631A001049D7 /* Frameworks */,
+				DD164B181D64631A001049D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD164B1C1D64631A001049D7 /* PBXTargetDependency */,
+			);
+			name = FristRACProjectUITests;
+			productName = FristRACProjectUITests;
+			productReference = DD164B1A1D64631A001049D7 /* FristRACProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD164AEE1D64631A001049D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lei.Zhang;
+				TargetAttributes = {
+					DD164AF51D64631A001049D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DD164B0E1D64631A001049D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD164AF51D64631A001049D7;
+					};
+					DD164B191D64631A001049D7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD164AF51D64631A001049D7;
+					};
+				};
+			};
+			buildConfigurationList = DD164AF11D64631A001049D7 /* Build configuration list for PBXProject "FristRACProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD164AED1D64631A001049D7;
+			productRefGroup = DD164AF71D64631A001049D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD164AF51D64631A001049D7 /* FristRACProject */,
+				DD164B0E1D64631A001049D7 /* FristRACProjectTests */,
+				DD164B191D64631A001049D7 /* FristRACProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD164AF41D64631A001049D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD164B091D64631A001049D7 /* LaunchScreen.storyboard in Resources */,
+				DD164B061D64631A001049D7 /* Assets.xcassets in Resources */,
+				DD164B041D64631A001049D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B0D1D64631A001049D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B181D64631A001049D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD164AF21D64631A001049D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD164B011D64631A001049D7 /* ViewController.m in Sources */,
+				DD164AFE1D64631A001049D7 /* AppDelegate.m in Sources */,
+				DD164AFB1D64631A001049D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B0B1D64631A001049D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD164B141D64631A001049D7 /* FristRACProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD164B161D64631A001049D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD164B1F1D64631A001049D7 /* FristRACProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD164B111D64631A001049D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD164AF51D64631A001049D7 /* FristRACProject */;
+			targetProxy = DD164B101D64631A001049D7 /* PBXContainerItemProxy */;
+		};
+		DD164B1C1D64631A001049D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD164AF51D64631A001049D7 /* FristRACProject */;
+			targetProxy = DD164B1B1D64631A001049D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD164B021D64631A001049D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD164B031D64631A001049D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD164B071D64631A001049D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD164B081D64631A001049D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD164B211D64631A001049D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD164B221D64631A001049D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD164B241D64631A001049D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FristRACProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD164B251D64631A001049D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FristRACProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD164B271D64631A001049D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FristRACProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FristRACProject.app/FristRACProject";
+			};
+			name = Debug;
+		};
+		DD164B281D64631A001049D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FristRACProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FristRACProject.app/FristRACProject";
+			};
+			name = Release;
+		};
+		DD164B2A1D64631A001049D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FristRACProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FristRACProject;
+			};
+			name = Debug;
+		};
+		DD164B2B1D64631A001049D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FristRACProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FristRACProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD164AF11D64631A001049D7 /* Build configuration list for PBXProject "FristRACProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD164B211D64631A001049D7 /* Debug */,
+				DD164B221D64631A001049D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD164B231D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD164B241D64631A001049D7 /* Debug */,
+				DD164B251D64631A001049D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD164B261D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD164B271D64631A001049D7 /* Debug */,
+				DD164B281D64631A001049D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD164B291D64631A001049D7 /* Build configuration list for PBXNativeTarget "FristRACProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD164B2A1D64631A001049D7 /* Debug */,
+				DD164B2B1D64631A001049D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD164AEE1D64631A001049D7 /* Project object */;
+}
