@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		4FCD9B7E0AA02CA953ED8C23 /* Pods_FristRACProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288E50E48188F71F825A7E8 /* Pods_FristRACProject.framework */; };
 		DD164AFB1D64631A001049D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164AFA1D64631A001049D7 /* main.m */; };
-		DD164AFE1D64631A001049D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164AFD1D64631A001049D7 /* AppDelegate.m */; };
-		DD164B011D64631A001049D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B001D64631A001049D7 /* ViewController.m */; };
-		DD164B041D64631A001049D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD164B021D64631A001049D7 /* Main.storyboard */; };
 		DD164B061D64631A001049D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD164B051D64631A001049D7 /* Assets.xcassets */; };
 		DD164B091D64631A001049D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD164B071D64631A001049D7 /* LaunchScreen.storyboard */; };
 		DD164B141D64631A001049D7 /* FristRACProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B131D64631A001049D7 /* FristRACProjectTests.m */; };
 		DD164B1F1D64631A001049D7 /* FristRACProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD164B1E1D64631A001049D7 /* FristRACProjectUITests.m */; };
+		DDA14B101D76D8230013D22E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14ADE1D76D8230013D22E /* AppDelegate.m */; };
+		DDA14B111D76D8230013D22E /* ZLBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AE31D76D8230013D22E /* ZLBaseNavigationViewController.m */; };
+		DDA14B121D76D8230013D22E /* ZLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AE61D76D8230013D22E /* ZLBaseTableViewCell.m */; };
+		DDA14B131D76D8230013D22E /* ZLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AE81D76D8230013D22E /* ZLBaseView.m */; };
+		DDA14B141D76D8230013D22E /* ZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AEA1D76D8230013D22E /* ZLBaseViewController.m */; };
+		DDA14B151D76D8230013D22E /* ZLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AED1D76D8230013D22E /* ZLBaseViewModel.m */; };
+		DDA14B161D76D8230013D22E /* LearingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AFC1D76D8230013D22E /* LearingViewController.m */; };
+		DDA14B171D76D8230013D22E /* LearingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14AFF1D76D8230013D22E /* LearingListModel.m */; };
+		DDA14B181D76D8230013D22E /* LiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14B011D76D8230013D22E /* LiveModel.m */; };
+		DDA14B191D76D8230013D22E /* LearView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14B041D76D8230013D22E /* LearView.m */; };
+		DDA14B1A1D76D8230013D22E /* LearCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14B071D76D8230013D22E /* LearCellViewModel.m */; };
+		DDA14B1B1D76D8230013D22E /* LearViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA14B091D76D8230013D22E /* LearViewModel.m */; };
+		DDA14B1C1D76D8230013D22E /* zxx_jc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDA14B0D1D76D8230013D22E /* zxx_jc.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +50,6 @@
 		D288E50E48188F71F825A7E8 /* Pods_FristRACProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FristRACProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD164AF61D64631A001049D7 /* FristRACProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FristRACProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD164AFA1D64631A001049D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD164AFC1D64631A001049D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DD164AFD1D64631A001049D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD164AFF1D64631A001049D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD164B001D64631A001049D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DD164B031D64631A001049D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD164B051D64631A001049D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD164B081D64631A001049D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD164B0A1D64631A001049D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +59,37 @@
 		DD164B1A1D64631A001049D7 /* FristRACProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FristRACProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD164B1E1D64631A001049D7 /* FristRACProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristRACProjectUITests.m; sourceTree = "<group>"; };
 		DD164B201D64631A001049D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA14ADD1D76D8230013D22E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDA14ADE1D76D8230013D22E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDA14AE21D76D8230013D22E /* ZLBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseNavigationViewController.h; sourceTree = "<group>"; };
+		DDA14AE31D76D8230013D22E /* ZLBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBaseNavigationViewController.m; sourceTree = "<group>"; };
+		DDA14AE41D76D8230013D22E /* ZLBaseTabelViewCellProctol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseTabelViewCellProctol.h; sourceTree = "<group>"; };
+		DDA14AE51D76D8230013D22E /* ZLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseTableViewCell.h; sourceTree = "<group>"; };
+		DDA14AE61D76D8230013D22E /* ZLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBaseTableViewCell.m; sourceTree = "<group>"; };
+		DDA14AE71D76D8230013D22E /* ZLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseView.h; sourceTree = "<group>"; };
+		DDA14AE81D76D8230013D22E /* ZLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBaseView.m; sourceTree = "<group>"; };
+		DDA14AE91D76D8230013D22E /* ZLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseViewController.h; sourceTree = "<group>"; };
+		DDA14AEA1D76D8230013D22E /* ZLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBaseViewController.m; sourceTree = "<group>"; };
+		DDA14AEB1D76D8230013D22E /* ZLBaseViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseViewControllerProtocol.h; sourceTree = "<group>"; };
+		DDA14AEC1D76D8230013D22E /* ZLBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseViewModel.h; sourceTree = "<group>"; };
+		DDA14AED1D76D8230013D22E /* ZLBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBaseViewModel.m; sourceTree = "<group>"; };
+		DDA14AEE1D76D8230013D22E /* ZLBaseViewModelProtcol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBaseViewModelProtcol.h; sourceTree = "<group>"; };
+		DDA14AEF1D76D8230013D22E /* ZLViewProtccol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLViewProtccol.h; sourceTree = "<group>"; };
+		DDA14AF71D76D8230013D22E /* DeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMacro.h; sourceTree = "<group>"; };
+		DDA14AFB1D76D8230013D22E /* LearingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearingViewController.h; sourceTree = "<group>"; };
+		DDA14AFC1D76D8230013D22E /* LearingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearingViewController.m; sourceTree = "<group>"; };
+		DDA14AFE1D76D8230013D22E /* LearingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearingListModel.h; sourceTree = "<group>"; };
+		DDA14AFF1D76D8230013D22E /* LearingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearingListModel.m; sourceTree = "<group>"; };
+		DDA14B001D76D8230013D22E /* LiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveModel.h; sourceTree = "<group>"; };
+		DDA14B011D76D8230013D22E /* LiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveModel.m; sourceTree = "<group>"; };
+		DDA14B031D76D8230013D22E /* LearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearView.h; sourceTree = "<group>"; };
+		DDA14B041D76D8230013D22E /* LearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearView.m; sourceTree = "<group>"; };
+		DDA14B061D76D8230013D22E /* LearCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearCellViewModel.h; sourceTree = "<group>"; };
+		DDA14B071D76D8230013D22E /* LearCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearCellViewModel.m; sourceTree = "<group>"; };
+		DDA14B081D76D8230013D22E /* LearViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearViewModel.h; sourceTree = "<group>"; };
+		DDA14B091D76D8230013D22E /* LearViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearViewModel.m; sourceTree = "<group>"; };
+		DDA14B0D1D76D8230013D22E /* zxx_jc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zxx_jc.jpg; sourceTree = "<group>"; };
+		DDA14B1E1D76D9430013D22E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		ECC7424153E2F0347E422481 /* Pods-FristRACProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FristRACProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FristRACProject/Pods-FristRACProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,11 +161,9 @@
 		DD164AF81D64631A001049D7 /* FristRACProject */ = {
 			isa = PBXGroup;
 			children = (
-				DD164AFC1D64631A001049D7 /* AppDelegate.h */,
-				DD164AFD1D64631A001049D7 /* AppDelegate.m */,
-				DD164AFF1D64631A001049D7 /* ViewController.h */,
-				DD164B001D64631A001049D7 /* ViewController.m */,
-				DD164B021D64631A001049D7 /* Main.storyboard */,
+				DDA14ADC1D76D8230013D22E /* AppDelegate */,
+				DDA14ADF1D76D8230013D22E /* Class */,
+				DDA14B0A1D76D8230013D22E /* Resource */,
 				DD164B051D64631A001049D7 /* Assets.xcassets */,
 				DD164B071D64631A001049D7 /* LaunchScreen.storyboard */,
 				DD164B0A1D64631A001049D7 /* Info.plist */,
@@ -142,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				DD164AFA1D64631A001049D7 /* main.m */,
+				DDA14B1E1D76D9430013D22E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +197,209 @@
 				DD164B201D64631A001049D7 /* Info.plist */,
 			);
 			path = FristRACProjectUITests;
+			sourceTree = "<group>";
+		};
+		DDA14ADC1D76D8230013D22E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14ADD1D76D8230013D22E /* AppDelegate.h */,
+				DDA14ADE1D76D8230013D22E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DDA14ADF1D76D8230013D22E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AE01D76D8230013D22E /* General */,
+				DDA14AF51D76D8230013D22E /* Helpers */,
+				DDA14AF61D76D8230013D22E /* Macro */,
+				DDA14AF81D76D8230013D22E /* Sections */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DDA14AE01D76D8230013D22E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AE11D76D8230013D22E /* Base */,
+				DDA14AF01D76D8230013D22E /* Categories */,
+				DDA14AF11D76D8230013D22E /* Core */,
+				DDA14AF21D76D8230013D22E /* Models */,
+				DDA14AF31D76D8230013D22E /* Public */,
+				DDA14AF41D76D8230013D22E /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		DDA14AE11D76D8230013D22E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AE21D76D8230013D22E /* ZLBaseNavigationViewController.h */,
+				DDA14AE31D76D8230013D22E /* ZLBaseNavigationViewController.m */,
+				DDA14AE41D76D8230013D22E /* ZLBaseTabelViewCellProctol.h */,
+				DDA14AE51D76D8230013D22E /* ZLBaseTableViewCell.h */,
+				DDA14AE61D76D8230013D22E /* ZLBaseTableViewCell.m */,
+				DDA14AE71D76D8230013D22E /* ZLBaseView.h */,
+				DDA14AE81D76D8230013D22E /* ZLBaseView.m */,
+				DDA14AE91D76D8230013D22E /* ZLBaseViewController.h */,
+				DDA14AEA1D76D8230013D22E /* ZLBaseViewController.m */,
+				DDA14AEB1D76D8230013D22E /* ZLBaseViewControllerProtocol.h */,
+				DDA14AEC1D76D8230013D22E /* ZLBaseViewModel.h */,
+				DDA14AED1D76D8230013D22E /* ZLBaseViewModel.m */,
+				DDA14AEE1D76D8230013D22E /* ZLBaseViewModelProtcol.h */,
+				DDA14AEF1D76D8230013D22E /* ZLViewProtccol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDA14AF01D76D8230013D22E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DDA14AF11D76D8230013D22E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DDA14AF21D76D8230013D22E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDA14AF31D76D8230013D22E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		DDA14AF41D76D8230013D22E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDA14AF51D76D8230013D22E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDA14AF61D76D8230013D22E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AF71D76D8230013D22E /* DeviceMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		DDA14AF81D76D8230013D22E /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AF91D76D8230013D22E /* ZL_Section */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		DDA14AF91D76D8230013D22E /* ZL_Section */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AFA1D76D8230013D22E /* Controller */,
+				DDA14AFD1D76D8230013D22E /* Model */,
+				DDA14B021D76D8230013D22E /* View */,
+				DDA14B051D76D8230013D22E /* ViewModel */,
+			);
+			path = ZL_Section;
+			sourceTree = "<group>";
+		};
+		DDA14AFA1D76D8230013D22E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AFB1D76D8230013D22E /* LearingViewController.h */,
+				DDA14AFC1D76D8230013D22E /* LearingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDA14AFD1D76D8230013D22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14AFE1D76D8230013D22E /* LearingListModel.h */,
+				DDA14AFF1D76D8230013D22E /* LearingListModel.m */,
+				DDA14B001D76D8230013D22E /* LiveModel.h */,
+				DDA14B011D76D8230013D22E /* LiveModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDA14B021D76D8230013D22E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14B031D76D8230013D22E /* LearView.h */,
+				DDA14B041D76D8230013D22E /* LearView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDA14B051D76D8230013D22E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14B061D76D8230013D22E /* LearCellViewModel.h */,
+				DDA14B071D76D8230013D22E /* LearCellViewModel.m */,
+				DDA14B081D76D8230013D22E /* LearViewModel.h */,
+				DDA14B091D76D8230013D22E /* LearViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDA14B0A1D76D8230013D22E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14B0B1D76D8230013D22E /* Font */,
+				DDA14B0C1D76D8230013D22E /* Images */,
+				DDA14B0E1D76D8230013D22E /* Sound */,
+				DDA14B0F1D76D8230013D22E /* Video */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DDA14B0B1D76D8230013D22E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DDA14B0C1D76D8230013D22E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDA14B0D1D76D8230013D22E /* zxx_jc.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DDA14B0E1D76D8230013D22E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		DDA14B0F1D76D8230013D22E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +509,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD164B091D64631A001049D7 /* LaunchScreen.storyboard in Resources */,
+				DDA14B1C1D76D8230013D22E /* zxx_jc.jpg in Resources */,
 				DD164B061D64631A001049D7 /* Assets.xcassets in Resources */,
-				DD164B041D64631A001049D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +583,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD164B011D64631A001049D7 /* ViewController.m in Sources */,
-				DD164AFE1D64631A001049D7 /* AppDelegate.m in Sources */,
+				DDA14B121D76D8230013D22E /* ZLBaseTableViewCell.m in Sources */,
+				DDA14B141D76D8230013D22E /* ZLBaseViewController.m in Sources */,
+				DDA14B1A1D76D8230013D22E /* LearCellViewModel.m in Sources */,
+				DDA14B151D76D8230013D22E /* ZLBaseViewModel.m in Sources */,
+				DDA14B161D76D8230013D22E /* LearingViewController.m in Sources */,
+				DDA14B111D76D8230013D22E /* ZLBaseNavigationViewController.m in Sources */,
+				DDA14B101D76D8230013D22E /* AppDelegate.m in Sources */,
+				DDA14B191D76D8230013D22E /* LearView.m in Sources */,
+				DDA14B1B1D76D8230013D22E /* LearViewModel.m in Sources */,
 				DD164AFB1D64631A001049D7 /* main.m in Sources */,
+				DDA14B171D76D8230013D22E /* LearingListModel.m in Sources */,
+				DDA14B131D76D8230013D22E /* ZLBaseView.m in Sources */,
+				DDA14B181D76D8230013D22E /* LiveModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +631,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD164B021D64631A001049D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD164B031D64631A001049D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD164B071D64631A001049D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -489,6 +729,7 @@
 			baseConfigurationReference = 1D9A936A5719AA27A813D6B8 /* Pods-FristRACProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FristRACProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FristRACProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProject;
@@ -501,6 +742,7 @@
 			baseConfigurationReference = ECC7424153E2F0347E422481 /* Pods-FristRACProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FristRACProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FristRACProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baobao.FristRACProject;

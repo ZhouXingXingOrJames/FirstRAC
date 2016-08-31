@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  FristRACProject
+//  RACTest
 //
-//  Created by Mr.Zhang on 16/8/17.
+//  Created by Mr.Zhang on 16/8/8.
 //  Copyright © 2016年 lei.Zhang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "LearingViewController.h"
+#import "ZLBaseNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    LearingViewController *learVC = [[LearingViewController alloc] init];
+    ZLBaseNavigationViewController *navigation = [[ZLBaseNavigationViewController alloc] initWithRootViewController:learVC];
+    self.window.rootViewController = navigation;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
