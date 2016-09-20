@@ -18,6 +18,17 @@
     }
     return self;
 }
+
+- (id) initWithViewModel:(id<ZLBaseViewModelProtcol>)viewModel{
+    self = [super init];
+    if (self) {
+        
+        [self zl_setUpViews];
+        [self zl_bindViewModel];
+    }
+    return self;
+
+}
 - (void) zl_setUpViews{};
 - (void) zl_bindViewModel{};
 

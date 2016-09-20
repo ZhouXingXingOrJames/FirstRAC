@@ -7,21 +7,38 @@
 //
 
 #import "LearView.h"
+#import "LearViewModel.h"
+
 @interface LearView()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *table;
-
+@property (nonatomic,strong) LearViewModel *viewModel;
 @end
 @implementation LearView
+- (id) initWithViewModel:(id<ZLBaseViewModelProtcol>)viewModel{
+    
+    self.viewModel = (LearViewModel *)viewModel;
+    return [super initWithViewModel:viewModel];
+
+}
 - (UITableView *)table{
     
     if (!_table) {
-        _table = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+        _table = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
         _table.delegate = self;
         _table.dataSource = self;
 
     }
     return _table;
 }
+- (LearViewModel *)viewModel{
+
+    if (!_viewModel) {
+        _viewModel = [[LearViewModel alloc] init];
+    }
+    return _viewModel;
+    
+}
+
 - (void)zl_setUpViews{
 
     [self addSubview:self.table];
@@ -44,7 +61,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     return 10;
-
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -57,5 +73,9 @@
     
     }
     return cell;
+}
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    [self.viewModel.cellSubject sendNext:nil];
 }
 @end

@@ -8,18 +8,28 @@
 
 #import "LearingViewController.h"
 #import "LearView.h"
+#import "LearViewModel.h"
 @interface LearingViewController ()
 @property (nonatomic,strong) LearView *mainView;
+@property (nonatomic,strong) LearViewModel *learModel;
 @end
 
 @implementation LearingViewController
+
 - (LearView *)mainView{
     
     if (!_mainView) {
-        _mainView = [[LearView alloc] init];
+        _mainView = [[LearView alloc] initWithViewModel:self.learModel];
     }
     return _mainView;
 
+}
+- (LearViewModel *)learModel{
+
+    if (!_learModel) {
+        _learModel = [[LearViewModel alloc] init];
+    }
+    return _learModel;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,5 +55,16 @@
 - (void) zl_navigationLayout{
 
     self.title = @"学习";
+}
+- (void)zl_bindViewModel{
+
+    @weakify(self);
+    [[self.learModel.cellSubject takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
+        @strongify(self);
+        UIViewController *VC = [[UIViewController alloc] init];
+        VC.view.backgroundColor = [UIColor redColor];
+        [self.navigationController pushViewController:VC animated:YES];
+        
+    }];
 }
 @end
