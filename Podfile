@@ -6,5 +6,5 @@ pod 'Masonry', '~> 0.6.4'
 pod 'MJRefresh', '~> 3.1.0'
 pod 'JSONModel', '~> 1.2.0'
 use_frameworks!
-pod 'ReactiveCocoa', '~> 4.0.4-alpha-4'
+pod 'ReactiveCocoa', '~> 4.2.2'
 end

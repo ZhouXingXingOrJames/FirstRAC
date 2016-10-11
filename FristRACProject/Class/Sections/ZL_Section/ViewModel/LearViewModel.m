@@ -27,7 +27,12 @@
 
 - (void)zl_initialize{
 
-    
+    self.dateArray = @[
+                       @"Animation",
+                       @"weaterPhoto",
+                       @"CABaseAnimation",
+                       @"核心动画"
+                       ];
 
 }
 @end
